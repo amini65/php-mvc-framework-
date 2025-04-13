@@ -21,7 +21,7 @@ $confid=[
 
 $app=new Application(__DIR__,$confid);
 
-
+// routing
 include_once __DIR__.'/routes/web.php';
 //$app->router->get('/',[SiteController::class,'home']);
 //$app->router->get('/tt','fdfdfdf');
